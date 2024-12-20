@@ -255,7 +255,6 @@ PLATFORMS
   x86-linux-gnu
   x86-linux-musl
   x86_64-darwin
-  x86_64-linux
   x86_64-linux-gnu
   x86_64-linux-musl
 
@@ -264,6 +263,7 @@ DEPENDENCIES
   brakeman
   debug
   net-pop (~> 0.1.2)
+  net-protocol
   puma (>= 5.0)
   rack-cors
   rails (~> 7.2.1)
