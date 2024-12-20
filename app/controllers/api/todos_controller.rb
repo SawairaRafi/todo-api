@@ -33,6 +33,7 @@ class Api::TodosController < ApplicationController
       render json: @todo.errors, status: :unprocessable_entity
     end
   end
+  
 
   # DELETE /todos/1
   def destroy
